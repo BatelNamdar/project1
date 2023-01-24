@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #222;
+}
+
+header .navbar {
+  padding: 0.8rem !important;
+}
+
+.navbar-nav i {
+  padding-right: 2em !important;
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.carousel-inner {
+  height: 50% !important;
+}
+.carousel-inner img {
+  max-height: 50%;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
