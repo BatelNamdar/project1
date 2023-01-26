@@ -24,4 +24,20 @@ header .navbar {
 .carousel-inner img {
   max-height: 50%;
   width: 100%;
+}
+
+.img-hover {
+  transition: transform 0.3s;
+}
+
+.img-hover:hover {
+  transform: scale(1.5);
+}
+
+.keep-aspect {
+  aspect-ratio: 16/9;
+}
+
+.accordion .accordion-header {
+  background-color: red !important;
 }/*# sourceMappingURL=style.css.map */
