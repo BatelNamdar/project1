@@ -8,44 +8,124 @@
     <link rel="stylesheet" href="styles\style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
 </head>
-<body>
-    <header>
-       <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<body dir="rtl">
+    <header class="shadow-lg">
+        <nav class="navbar navbar-expand-md navbar-light bg-p-purple sticky-top " >
             <div class="container-fluid">
-                <a href="./index.html" class="navbard-brand">
-                    <img src="images\holon-logo.png" alt="holon municipality logo">
+                <a href="./index.html" class="navbar-brand logo">
+                    <img src="images\holon-logo.png" alt="holon municipality logo" width="70%">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive"></div>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="./about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="./media.html" class="nav-link">Media</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="./faq.html" class="nav-link">FAQ</a>
-                    </li>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon justify-content-end "></span>
+                  </button>
+                <div class="navbar-collapse collapse" id="navbarNav" >
+                    <ul class="navbar-nav  fs-3 ">
+                        <li class="nav-item mx-3 menu-shadow rounded-2 p-1">
+                            <a href="./contact-us.html" class="nav-link active ">Contact Us</a>
+                        </li>
+                        
+                        <li class="nav-item  mx-3 menu-shadow rounded-2 p-1">
+                            <a href="./about.html" class="nav-link ">About</a>
+                        </li>
+    
                     
-                    <li class="nav-item">
-                        <a href="./contact-us.html" class="nav-link active">Contact Us</a>
-                    </li>
-                </ul>
+                            <li class="nav-item  mx-3 menu-shadow rounded-2 p-1">
+                            <a href="./faq.html" class="nav-link">FAQ</a>
+                        </li>
+                        
+                        <li class="nav-item  mx-3 menu-shadow rounded-2 p-1">
+                            <a href="./media.html" class="nav-link">Media</a>
+                        </li>
+                        <li class="nav-item mx-3 menu-shadow rounded-2 p-1">
+                            <a href="./index.html" class="nav-link ">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                   
             </div>
        </nav>
     </header>
     <main>
+        <div class="container-fluid padding">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="container-fluid text-center mt-5">
+                        <form action="">
+                            <fieldset class="">
+                                <legend class="display-5">
+                                    השאירו פרטים ונחזור אליכים!
+                                </legend> 
+                                <label for="telNum" class="mt-2">מספר טלפון</label> <br>
+                                <input type="text"  class="rounded w-50 p-2" dir="ltr" id="telNum" name="phone-number" placeholder="05--------">
 
+                                <br>
+                                
+                                <label for="firstName" class="mt-2">
+                                    שם פרטי
+                                </label> <br>
+                                <input type="text" class="rounded w-50 p-2" id="firstName" name="first-name" placeholder="">
+
+                                <br>
+
+                                <label for="lastName" class="mt-2">שם משפחה</label> <br>
+                                <input type="text"  class="rounded w-50 p-2"  id="lastName" name="last-name" >
+
+                                <br>
+
+                                <label for="mail" class="mt-2">כתובת דואר אלקטרוני</label> <br>
+                                <input type="email" dir="ltr" class="rounded w-50 p-2"  id="mail" name="email" placeholder="email@address.com">
+
+                                <br>
+                                
+                                <label for="inqury" class="mt-2"> תוכן הפניה</label> <br>
+                                <textarea name="inqury-context"  class="rounded w-50 p-2" id="inqury" cols="30" rows="5"></textarea>
+
+                                <br>
+                                <input type="checkbox" id="accept-newsletter" >
+                                <label for="accept-newsletter" class="mt-2">הנני מאשר קבלה של תכנים פרסומיים לניד</label> 
+
+                                <br>
+
+                                <button type="submit"> שלח פניה</button>
+                                
+                                
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="container-fluid text-center mt-5 ">
+                        <p class="display-5">שעות קבלה</p>
+                        <p>
+                            א', ב', ה': 13:30-08:30
+                        </p><br>
+                        <p>
+                            ג': 13:00-08:30, 18:30-16:00 
+                        </p><br>
+                        <p>
+                            ד': אין קבלת קהל
+                        </p>
+                        <hr>
+
+                        <p class="display-5" >כתובת</p>
+                        <p>
+                            בניין העירייה - ויצמן 58, חולון, קומה 2, חדר 239
+                            <hr class="w-50 m-auto">
+                        </p>
+
+                        <p class="display-5 mt-3">מס' טלפון</p>
+                        <strong>03-5011111 / 106</strong>
+                        
+                    </div>
+                   
+                    
+                </div>
+               
+            </div>
+        </div>
     </main>
 </body>
 </html>

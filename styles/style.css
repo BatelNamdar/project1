@@ -1,7 +1,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  color: #222;
 }
 
 header .navbar {
@@ -16,6 +15,14 @@ header .navbar {
   position: absolute;
   top: 8px;
   left: 20px;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  scale: 1.2;
 }
 
 .carousel-inner {
@@ -24,6 +31,10 @@ header .navbar {
 .carousel-inner img {
   max-height: 50%;
   width: 100%;
+}
+
+.w-20 {
+  width: 20%;
 }
 
 .img-hover {
@@ -38,6 +49,22 @@ header .navbar {
   aspect-ratio: 16/9;
 }
 
-.accordion .accordion-header {
-  background-color: red !important;
+.bg-p-purple {
+  background-color: #9453A6 !important;
+}
+
+.bg-p-yellow {
+  background-color: #F2CC0F !important;
+}
+
+.bg-p-green {
+  background-color: #8CBF3F !important;
+}
+
+.menu-shadow:hover {
+  box-shadow: 1px 16px 26px -3px rgba(242, 204, 15, 0.77);
+  -webkit-box-shadow: 1px 16px 26px -3px rgba(242, 204, 15, 0.77);
+  -moz-box-shadow: 1px 16px 26px -3px rgba(242, 204, 15, 0.77);
+  transition: 0.3s;
+  background-color: #8CBF3F;
 }/*# sourceMappingURL=style.css.map */
