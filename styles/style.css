@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header .navbar {
   padding: 0.8rem !important;
 }
@@ -88,7 +92,7 @@ header .navbar {
 
 .f-melel {
   font-family: "Bona Nova", serif !important;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -103,4 +107,6 @@ nav {
   list-style-type: none;
   margin-left: 0;
   padding-right: 0;
+  font-family: "Bona Nova", serif !important;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

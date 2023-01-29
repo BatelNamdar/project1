@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Karantina&display=swap" rel="stylesheet">
 </head>
 <body dir="rtl">
-  <header class="shadow-lg">
+  <header class="shadow-lg vw-100">
     <nav class="navbar navbar-expand-md navbar-light bg-p-purple sticky-top " >
         <div class="container-fluid">
             <a href="./index.html" class="navbar-brand logo">
@@ -50,89 +50,63 @@
    </nav>
 </header>
     <main>
-
-        <div class="carousel slide" id="slides" data-bs-ride="carousel">
-            <ul class="carousel-indicators mb-5">
-                <li data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
-
-                <li data-bs-target="#slides" data-bs-slide-to="1"></li>
-
-                <li data-bs-target="#slides" data-bs-slide-to="2" ></li>
-
-                <li data-bs-target="#slides" data-bs-slide-to="3" ></li>
-
-                <li data-bs-target="#slides" data-bs-slide-to="4" ></li>
-            </ul>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images\holon-img-1.avif" class="" alt="">
-                    <div class="carousel-caption mb-5">
-                        <h1 class="display-2">
-                            slide 1
-                        </h1>
-
-                        <h3>
-                            fantastic
-                        </h3>
-
-                        <button type="button" class="btn btn-outline-primary btn-lg"> hear more</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images\holon-img-1.avif" class="" alt="">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">
-                            slide 2
-                        </h1>
-
-                        <h3>
-                            awesome
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images\holon-img-1.avif" class="" alt="">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">
-                            sllide 3
-                        </h1>
-
-                        <h3>
-                            crazy
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images\holon-img-1.avif" class="" alt="">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">
-                            slide 4
-                        </h1>
-
-                        <h3>
-                            incredible
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images\holon-img-1.avif" class="" alt="">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">
-                            slide 5
-                        </h1>
-
-                        <h3>
-                            okay we got the point
-                        </h3>
-                    </div>
-                </div>
+        <div id="carouselExampleCaptions" class="carousel slide vw-100">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              
             </div>
-        </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/holon-image-4.jpg" class="d-block w-100   " alt="man riding butterfly winged bike">
+                <div class="carousel-caption d-none d-md-block p-purple rounded bg-p-yellow">
+                  <h5>אל תחלמו</h5>
+                  <p>עדלאידע חולון! מי שלא בא הולך לישון!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/holon-image-6.jpg" class="d-block w-100" alt="masquerade mask">
+                <div class="carousel-caption p-purple rounded bg-p-yellow d-none d-md-block">
+                  <h5>עדלאידע כזאת עוד לא ראיתם</h5>
+                  <p>בואו לראות מופע מרהיב!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/holon-image-12.jpg" class="d-block w-100" alt="אישה רוקדת בעדלאידע">
+                <div class="carousel-caption d-none d-md-block  p-purple rounded bg-p-yellow">
+                  <h5>מתי העדלאידע הבאה?</h5>
+                  <p>7 למרצ, 2023</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/holon-image-9.jpg" class="d-block w-100" alt="קבוצת מתחפשים ממרדי גראס">
+                <div class="carousel-caption d-none d-md-block  p-purple rounded bg-p-yellow">
+                  <h5>מי שלא היה בעדלאידעת חולון....</h5>
+                  <p>לא ראה עדלאידע מימיו</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/holon-image-7.jpg" class="d-block w-100" alt="משאית מהעדלאידע">
+                <div class="carousel-caption d-none d-md-block  p-purple rounded bg-p-yellow">
+                  <h5>תחרות תחפושות</h5>
+                  <p>המנצח מקבל ביקור חינם אצל רופא שיניים... בכל זאת פורים</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+        
         
 <div class="vw-100 bg-p-yellow">
     <div class="container mt-5 ">
@@ -142,9 +116,9 @@
         <section class="dark-grey-text ">
       
         
-          <h2 class="text-center f-koteret mb-4 pb-2">טעימה קטנה</h2>
+          <h2 class="text-center f-koteret mb-4 pb-2">עדלאידעת חולון</h2>
        
-          <p class="text-center mx-auto w-responsive mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+          <p class="text-center f-melel mx-auto w-responsive mb-5">תהלוכת פורים הגדולה במדינה מתקיימת מידי שנה בעיר חולון והיא מהווה שיאה של פעילות קהילתית וארגונית המתרחשת במהלך השנה ומתעצמת לקראת החג.</p>
       
          
           <div class="row align-items-center">
@@ -169,14 +143,15 @@
             
             
     
-              <h4 class="font-weight-bold mb-3"><strong>Title of the news</strong></h4>
+              <h4 class="font-weight-bold  mb-3"><strong>העדלאידע שלנו!</strong></h4>
               
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
+              <p class="f-melel">6000  משתתפים, מיצגי ענק ומתקנים נעים, מאות אמנים, תיאטרונים, תזמורות, נשפנים, מתופפים, רקדנים, מתעמלים, אמני גלגיליות ועוד  יציגו יצדיעו  ברוח פורימית מקורית את טעמי הילדות והאוכל שילדים אוהבים לאכול.
+                מיצגי הענק של העדלאידע יהיו מתקנים מוביליים, זזים המשנים את צורתם לנגד עיני הקהל: עולים, יורדים, נפתחים ומתפרקים.
+                בתרועת השיר "אוכל קדימה אוכל"- המסמל יותר מכל את הישראליות- תפתח העדלאידע ה-20 בעיר חולון והיא תהיה חגיגה לכל מה שילדים מכירים ואוהבים לאכול.</p>
              
             
            
-              <a class="btn btn-success btn-md btn-rounded mx-0">Read more</a>
+              
       
             </div>
          
@@ -191,7 +166,7 @@
       
       
       </div>
-      <div class="container mt-5">
+      <div class="container f-melel mt-5">
 
 
         
@@ -225,11 +200,11 @@
     
              
        
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
+              <p>את המיצגים ילוו אלפי משתתפי העדלאידע, מרחבי הארץ ומחולון, להקות מחול, קבוצות התעמלות אמנותית, תזמורות צעידה,אקרובטים, רוכבי אופניים, גלגיליות,רוכבי אופנוע דמויות שטח ועוד . כולם בתחפושות נושא של העדלאידע: חטיפים, סוכריות, שוקולד, שלגונים, עגבניות, גזרים, פילפלים ושאר ירקות,מוצרי חלב למיניהם ועוד.
+                בתום העדלאידע תתקיים מסיבת ענק עם מוסיקה, אקרובטיקה ופירוטכניקה –ברחבה שמול עירית חולון ברחוב וייצמן. העדלאידע תצעד לאורך רחוב סוקולוב ותסתיים ברחוב וייצמן פינת ההסתדרות.</p>
        
-              
-      
+                <a href="./about.html" class="btn bg-p-purple p-yellow btn-md btn-rounded mx-0" >Read more</a>
+                
             </div>
 
       
@@ -267,19 +242,17 @@
             <div class="row padding">
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                    <div class="card-body">
+                    <img src="./sponsor-img/osem-logo.png" alt="לוגו אסם" class="card-img-top"> 
+                    <div class="card-body f-melel text-center">
 
                         <h4 class="card-title">
-                            osem
+                            אסם
                         </h4>
 
-                        <p class="card-text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                        </p>
+                     
 
-                        <a href="" class="btn btn-outline-secondary">
-                            learn more
+                        <a href="https://www.osem-nestle.co.il/" target="_blank" class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                         </a>
                     </div>
                     
@@ -288,19 +261,17 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                      <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                      <div class="card-body">
+                      <img src="./sponsor-img/mey-eden.jpg" alt="לןגו מי עדן" class="card-img-top"> 
+                      <div class="card-body f-melel text-center">
   
                           <h4 class="card-title">
-                              osem
+                              מי עדן
                           </h4>
   
-                          <p class="card-text">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                          </p>
+                          
   
-                          <a href="" class="btn btn-outline-secondary">
-                              learn more
+                          <a href="https://www.meyeden.co.il/" target="_blank" class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                           </a>
                       </div>
                       
@@ -309,19 +280,17 @@
                   </div>
                   <div class="col-md-3 mb-3">
                     <div class="card">
-                      <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                      <div class="card-body">
+                      <img src="./sponsor-img/burger-logo.png" alt=" לוגו בורגראנץ" class="card-img-top"> 
+                      <div class="card-body text-center">
   
-                          <h4 class="card-title">
-                              osem
+                          <h4 class=" f-melel card-title">
+                              בורגראנץ
                           </h4>
   
-                          <p class="card-text">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                          </p>
+                         
   
-                          <a href="" class="btn btn-outline-secondary">
-                              learn more
+                          <a href="https://app.burgeranch.co.il/?utm_term=%D7%91%D7%95%D7%A8%D7%92%D7%A8%D7%90%D7%A0%D7%A5&utm_campaign=&utm_source=google&utm_medium=cpc&gclid=Cj0KCQiAz9ieBhCIARIsACB0oGI7XXU5E3Cv5vRVApGv3dFaINTcXxLCOjettE7E9xNVuFKYoX_MN-MaAl6dEALw_wcB" target="_blank" class="btn f-melel  btn-outline-secondary">
+                              ראה עוד
                           </a>
                       </div>
                       
@@ -330,19 +299,16 @@
                   </div>
                   <div class="col-md-3 mb-3">
                     <div class="card">
-                      <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                      <div class="card-body">
+                      <img src="./sponsor-img/spat-logo.png" alt=" לוגו מלונות ספאט" class="card-img-top"> 
+                      <div class="card-body text-center">
   
-                          <h4 class="card-title">
-                              osem
+                          <h4 class="card-title f-melel">
+                              מלונות ספאט
                           </h4>
+ 
   
-                          <p class="card-text">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                          </p>
-  
-                          <a href="" class="btn btn-outline-secondary">
-                              learn more
+                          <a href="https://www.spathotels.com/copy-of-%D7%A1%D7%A4%D7%90%D7%98-%D7%90%D7%A9%D7%93%D7%95%D7%93" target="_blank" class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                           </a>
                       </div>
                       
@@ -358,20 +324,18 @@
         <div class="container-fluid padding ">
             <div class="row padding justify-content-around">
                 <div class="col-md-3 mb-3 ml-auto">
-                  <div class="card">
-                    <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                    <div class="card-body">
+                  <div class="card h-100">
+                    <img src="./sponsor-img/pizza-logo.jpg" alt=" לוגו פיצה תרשיש" class="card-img-top"> 
+                    <div class="card-body f-melel text-center">
 
                         <h4 class="card-title">
-                            osem
+                            פיצה תרשיש
                         </h4>
 
-                        <p class="card-text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                        </p>
+             
 
-                        <a href="" class="btn btn-outline-secondary">
-                            learn more
+                        <a href="https://www.facebook.com/hillazvia/"  target="_blank" class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                         </a>
                     </div>
                     
@@ -379,40 +343,37 @@
                   
                 </div>
                 <div class="col-md-3 mb-3">
-                    <div class="card">
-                      <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                      <div class="card-body">
+                    <div class="card h-100">
+                      <img src="./sponsor-img/azrieli-2.png" alt="" class="card-img-top "> 
+                      <div class="card-body text-center">
   
-                          <h4 class="card-title">
-                              osem
-                          </h4>
+                         
+                        <h4 class="card-title f-melel">
+                      קבוצת עזריאלי
+                        </h4>
+                       
   
-                          <p class="card-text">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                          </p>
-  
-                          <a href="" class="btn btn-outline-secondary">
-                              learn more
+                          <a href="https://www.azrieligroup.com/he/" target="_blank" class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                           </a>
                       </div>
                       
                     </div>                    
                   </div>
                   <div class="col-md-3 mb-3">
-                    <div class="card">
-                      <img src="images\holon-image-5.jpg" alt="" class="card-img-top"> 
-                      <div class="card-body">
-  
-                          <h4 class="card-title">
-                              osem
+                    <div class="card h-100">
+                      <img src="./sponsor-img/goldstar-logo-2.jpg" alt="גולדסטאר" class="card-img-top mb-5"> 
+                      <div class="card-body text-center">
+                            
+                            
+                          <h4 class="card-title mt-5 pt-5 f-melel ">
+                              גולדסטאר
                           </h4>
   
-                          <p class="card-text">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit explicabo animi magni aliquid quidem mollitia accusantium incidunt at labore ut consectetur placeat, odit voluptatem dicta obcaecati, vero voluptas pariatur adipisci.
-                          </p>
+                        
   
-                          <a href="" class="btn btn-outline-secondary">
-                              learn more
+                          <a href="https://www.tempo.co.il/brands/gold-star/" target="_blank"  class="btn f-melel btn-outline-secondary">
+                            ראה עוד
                           </a>
                       </div>
                       
@@ -424,9 +385,10 @@
     <hr>
     <footer class="bg-p-purple">
         <div class="container-fluid" dir="ltr">
-            <div class="row">
+            <div class="row ">
                 <div class="col-6 text-center">
-                    <ul class="d-inline-block overflow-auto ul-footer bg-p-yellow p-5 mb-0 rounded-3 ">
+                    <br>
+                    <ul class="d-inline-block ul-footer bg-p-yellow p-5 mb-0  rounded-3 ">
                         <li class="p-yellow">
                             <a href="index.html"> עמוד הבית</a>
                         </li>
@@ -444,25 +406,25 @@
                         </li>
                         <hr>
                         <li>
-                            <a href="">אסם</a>
+                            <a href="https://www.osem-nestle.co.il/" target="_blank">אסם</a>
                         </li>
                         <li>
-                            <a href="">מי עדן</a>
+                            <a href="https://www.meyeden.co.il/" target="_blank">מי עדן</a>
                         </li>
                         <li>
-                            <a href="">בירת גולדסטאר</a>
+                            <a href="https://www.tempo.co.il/brands/gold-star/" target="_blank">בירת גולדסטאר</a>
                         </li>
                         <li>
-                            <a href="">בורגראנץ</a>
+                            <a href="https://app.burgeranch.co.il/?utm_term=%D7%91%D7%95%D7%A8%D7%92%D7%A8%D7%90%D7%A0%D7%A5&utm_campaign=&utm_source=google&utm_medium=cpc&gclid=Cj0KCQiAz9ieBhCIARIsACB0oGI7XXU5E3Cv5vRVApGv3dFaINTcXxLCOjettE7E9xNVuFKYoX_MN-MaAl6dEALw_wcB" target="_blank">בורגראנץ</a>
                         </li>
                         <li>
-                            <a href="">פיצה תרשיש</a>
+                            <a href="https://www.facebook.com/hillazvia/" target="_blank">פיצה תרשיש</a>
                         </li>
                         <li>
-                            <a href="">ספאט חולון</a>
+                            <a href="https://www.spathotels.com/copy-of-%D7%A1%D7%A4%D7%90%D7%98-%D7%90%D7%A9%D7%93%D7%95%D7%93" target="_blank">ספאט חולון</a>
                         </li>
                         <li>
-                            <a href="">עזריאלי</a>
+                            <a href="https://www.azrieligroup.com/he/" target="_blank">עזריאלי</a>
                         </li>
                     </ul>
                 </div>
@@ -473,7 +435,7 @@
             </div>
         </div>
         <div class="container-fluid text-center">
-            <p>Built by Batel Namdar </p>
+            <p class="f-melel">Built by Batel Namdar </p>
         </div>
         
     </footer>
