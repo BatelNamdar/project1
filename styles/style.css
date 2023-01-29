@@ -53,12 +53,24 @@ header .navbar {
   background-color: #9453A6 !important;
 }
 
+.p-purple {
+  color: #9453A6 !important;
+}
+
 .bg-p-yellow {
   background-color: #F2CC0F !important;
 }
 
+.p-yellow {
+  color: #F2CC0F !important;
+}
+
 .bg-p-green {
   background-color: #8CBF3F !important;
+}
+
+.bg-p-green {
+  color: #8CBF3F !important;
 }
 
 .menu-shadow:hover {
@@ -67,4 +79,28 @@ header .navbar {
   -moz-box-shadow: 1px 16px 26px -3px rgba(242, 204, 15, 0.77);
   transition: 0.3s;
   background-color: #8CBF3F;
+}
+
+.f-koteret {
+  font-family: "Karantina", cursive !important;
+  font-size: 4rem;
+}
+
+.f-melel {
+  font-family: "Bona Nova", serif !important;
+  font-size: 3rem;
+}
+
+nav {
+  font-family: "Karantina", cursive;
+}
+
+.w-15 {
+  width: 10%;
+}
+
+.ul-footer {
+  list-style-type: none;
+  margin-left: 0;
+  padding-right: 0;
 }/*# sourceMappingURL=style.css.map */

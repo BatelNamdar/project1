@@ -2,7 +2,8 @@ $proj-green:#8CBF3F;
 $proj-purple:#9453A6;
 $proj-yellow:#F2CC0F;
 
-
+// font-family: 'Bona Nova', serif;
+// font-family: 'Karantina', cursive;
 
 html , body{
     height: 100%;
@@ -58,14 +59,26 @@ width: 100%;
 .bg-p-purple{
     background-color: $proj-purple!important;
 }
+.p-purple{
+    color: $proj-purple!important;
+}
+
 
 .bg-p-yellow{
     background-color: $proj-yellow!important;
 }
 
+.p-yellow{
+    color: $proj-yellow!important;
+}
+
 .bg-p-green{
     background-color: $proj-green!important;
 }
+.bg-p-green{
+    color: $proj-green!important;
+}
+
 
 
 .menu-shadow:hover{
@@ -74,5 +87,29 @@ width: 100%;
     -moz-box-shadow: 1px 16px 26px -3px rgba(242,204,15,0.77);
     transition: 0.3s;
     background-color: $proj-green;
+}
+
+.f-koteret{
+    font-family: 'Karantina', cursive !important;
+    font-size: 4rem;
+}
+
+.f-melel{
+    font-family: 'Bona Nova', serif !important;
+    font-size: 3rem;
+}
+
+nav{
+    font-family: 'Karantina', cursive;
+}
+
+.w-15{
+    width:10%;
+}
+
+.ul-footer{
+    list-style-type: none;
+    margin-left: 0;
+    padding-right: 0;
 }
 
